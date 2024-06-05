@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generador de Contraseña</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+
+    <h1>Generador de Contraseña</h1>
+    <h2>Seleccione su preferencia</h2>
+
+    <label for="InputNumeroCaracteres">Cantidad de caracteres:</label>
+    <input id="InputNumeroCaracteres" class="InputNumeroCaracteres" type="number"><br>
+    
+    <input id="InputIncluirMayusculas" type="checkbox">
+    <label for="InputIncluirMayusculas">Incluir mayúsculas</label><br>
+    
+    <input id="InputIncluirMinusculas" type="checkbox">
+    <label for="InputIncluirMinusculas">Incluir minúsculas</label><br>
+    
+    <input id="InputIncluirNumeros" type="checkbox">
+    <label for="InputIncluirNumeros">Incluir números</label><br>
+
+    <input id="InputIncluirSimbolos" type="checkbox">
+    <label for="InputIncluirSimbolos">Incluir caracteres especiales</label><br><br>
+
+    <button id="BotonGenerar">Generar</button>
+
+    <h3 id="contrasenaGenerada">Tu contraseña es: </h3>
+
+    <script src="JavaScript.js"></script>
+</body>
+</html>
